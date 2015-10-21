@@ -66,6 +66,15 @@ sub run_all_for {
             version => Zonemaster::Test::Basic->version
         }
     );
+    foreach my $mod ( __PACKAGE__->modules ) {
+        $mod = 'Zonemaster::Test::'.$mod;
+        info(
+            MODULE_VERSION => {
+                module  => $mod,
+                version => $mod->version
+            }
+        );
+    }
     _log_versions();
 
     if ( not( Zonemaster->config->ipv4_ok or Zonemaster->config->ipv6_ok ) ) {
