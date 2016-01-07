@@ -1,3 +1,9 @@
+libzonemaster-perl (1.0.11-5~unstable+1) unstable; urgency=low
+
+  * Add MANIFEST.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Thu, 07 Jan 2016 13:04:21 +0100
+
 libzonemaster-perl (1.0.11-4~unstable+1) unstable; urgency=low
 
   * Fix missing dependency for a few distributions and corrected rules to run without network.
