@@ -1,3 +1,9 @@
+libzonemaster-perl (1.0.11-6~unstable+1) unstable; urgency=low
+
+  * Update debian/copyright.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Fri, 08 Jan 2016 13:31:49 +0100
+
 libzonemaster-perl (1.0.11-5~unstable+1) unstable; urgency=low
 
   * Add MANIFEST.
