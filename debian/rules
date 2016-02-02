@@ -6,3 +6,7 @@ endif
 
 %:
 	TEST_NO_NETWORK=$(TEST_NO_NETWORK) dh $@
+
+override_dh_auto_build:
+	cd share && make
+	dh_auto_build

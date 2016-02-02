@@ -56,6 +56,10 @@ share/policy.json
 share/Makefile
 share/config.json
 share/iana-profile.json
+share/locale/en/LC_MESSAGES/Zonemaster.mo
+share/locale/fr_FR.UTF-8/LC_MESSAGES/Zonemaster.mo
+share/locale/fr/LC_MESSAGES/Zonemaster.mo
+share/locale/sv/LC_MESSAGES/Zonemaster.mo
 t/Test-connectivity.data
 t/undelegated.data
 t/Test-zone.t
