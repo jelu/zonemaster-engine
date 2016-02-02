@@ -1,3 +1,9 @@
+libzonemaster-perl (1.0.13-1~unstable+1) unstable; urgency=low
+
+  * Release 1.0.13 and generate locale.
+
+ -- Jerry Lundström <lundstrom.jerry@gmail.com>  Tue, 02 Feb 2016 14:31:00 +0100
+
 libzonemaster-perl (1.0.11-6~unstable+1) unstable; urgency=low
 
   * Update debian/copyright.
