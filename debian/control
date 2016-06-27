@@ -2,14 +2,22 @@ Source: libzonemaster-perl
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7)
-Build-Depends-Indep: perl, libmodule-install-perl, libnet-ldns-perl, libio-socket-inet6-perl, libmoose-perl, libmodule-find-perl, libjson-xs-perl, libfile-sharedir-perl, libfile-slurp-perl, libnet-ip-xs-perl, liblist-moreutils-perl, libmail-rfc822-address-perl, libhash-merge-perl, libreadonly-perl, libintl-perl, libtest-fatal-perl, libjson-perl, gettext
+Build-Depends-Indep: perl, libmodule-install-perl, libnet-ldns-perl,
+ libio-socket-inet6-perl, libmoose-perl, libmodule-find-perl, libjson-perl,
+ libfile-sharedir-perl, libfile-slurp-perl, libnet-ip-perl,
+ liblist-moreutils-perl, libmail-rfc822-address-perl, libhash-merge-perl,
+ libreadonly-perl, libintl-perl, libtest-fatal-perl, libjson-perl, gettext
 Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
 Standards-Version: 3.9.1
 Homepage: https://github.com/jelu/zonemaster-engine
 
 Package: libzonemaster-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}, libnet-ldns-perl, libio-socket-inet6-perl, libmoose-perl, libmodule-find-perl, libjson-xs-perl, libfile-sharedir-perl, libfile-slurp-perl, libnet-ip-xs-perl, liblist-moreutils-perl, libmail-rfc822-address-perl, libhash-merge-perl, libreadonly-perl, libintl-perl, libjson-perl
-Recommends: libreadonly-xs-perl
+Depends: ${misc:Depends}, ${perl:Depends}, libnet-ldns-perl,
+ libio-socket-inet6-perl, libmoose-perl, libmodule-find-perl, libjson-perl,
+ libfile-sharedir-perl, libfile-slurp-perl, libnet-ip-perl,
+ liblist-moreutils-perl, libmail-rfc822-address-perl, libhash-merge-perl,
+ libreadonly-perl, libintl-perl, libjson-perl
+Recommends: libreadonly-xs-perl, libjson-xs-perl
 Description: A tool to check the quality of a DNS zone
  A tool to check the quality of a DNS zone
