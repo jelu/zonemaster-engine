@@ -4,7 +4,7 @@ Priority: optional
 Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: perl, libmodule-install-perl, libnet-ldns-perl,
  libio-socket-inet6-perl, libmoose-perl, libmodule-find-perl, libjson-perl,
- libfile-sharedir-perl, libfile-slurp-perl, libnet-ip-perl,
+ libfile-sharedir-perl, libfile-slurp-perl, libnet-ip-xs-perl,
  liblist-moreutils-perl, libmail-rfc822-address-perl, libhash-merge-perl,
  libreadonly-perl, libintl-perl, libtest-fatal-perl, libjson-xs-perl, gettext
 Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
@@ -15,7 +15,7 @@ Package: libzonemaster-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}, libnet-ldns-perl,
  libio-socket-inet6-perl, libmoose-perl, libmodule-find-perl, libjson-perl,
- libfile-sharedir-perl, libfile-slurp-perl, libnet-ip-perl,
+ libfile-sharedir-perl, libfile-slurp-perl, libnet-ip-xs-perl,
  liblist-moreutils-perl, libmail-rfc822-address-perl, libhash-merge-perl,
  libreadonly-perl, libintl-perl, libjson-perl
 Recommends: libreadonly-xs-perl, libjson-xs-perl
