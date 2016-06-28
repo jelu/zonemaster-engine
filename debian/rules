@@ -3,6 +3,9 @@
 ifeq ($(USER),buildd)
 TEST_NO_NETWORK=1
 endif
+ifeq ($(USER),pbuilder)
+TEST_NO_NETWORK=1
+endif
 
 %:
 	TEST_NO_NETWORK=$(TEST_NO_NETWORK) dh $@
